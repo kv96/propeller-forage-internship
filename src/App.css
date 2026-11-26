@@ -3,7 +3,14 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+  max-height: 100px;
+  object-fit: contain;
+  margin: 0 auto 24px;
+  filter: brightness(0) invert(1);
   pointer-events: none;
 }
 
